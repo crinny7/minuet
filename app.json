@@ -1,0 +1,16 @@
+{
+  "name": "l7web",
+  "description": "",
+  "repository": "https://github.com/crinny/l7realflex",
+  "logo": "https://upload.wikimedia.org/wikipedia/ru/thumb/2/26/L7_%28band%29.jpg/274px-L7_%28band%29.jpg",
+  "env": {
+    "url": {
+      "description": "Victim"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
